@@ -91,7 +91,7 @@ The following example sets the `RemainingItemsThresholdReachedCommand` to a new 
 new CollectionView().RemainingItemsThresholdReachedCommand(new Command(async () => await DisplayAlert("Threshold Reached", "", "OK")));
 ```
 
-Theere is a second overload that sets both the `RemainingItemsThresholdReachedCommand` property and the `RemainingItemsThresholdReachedCommandParameter` property.
+There is a second overload that sets both the `RemainingItemsThresholdReachedCommand` property and the `RemainingItemsThresholdReachedCommandParameter` property.
 
 The following example sets the `RemainingItemsThresholdReachedCommand` to a new `Command<string>` and sets the `RemainingItemsThresholdReachedCommandParameter` to `"No Items Remaining"`:
 
